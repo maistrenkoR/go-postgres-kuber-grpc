@@ -2,6 +2,7 @@
 
 libraries: 
 - https://github.com/golang-migrate/migrate
+- https://github.com/kyleconroy/sqlc
 
 docker commands
 docker images
@@ -30,3 +31,6 @@ docker stop <container_name_or_id>
 10. create makefile
 11. first migration 
 - migrate -path db/migration -database "postgresql://root:secret@localhost:5432/simple_bank?sslmode=disable" -verbose up
+12. install sqlc
+- go install github.com/kyleconroy/sqlc/cmd/sqlc@latest
+13. 
