@@ -4,13 +4,13 @@ libraries:
 - https://github.com/golang-migrate/migrate
 - https://github.com/kyleconroy/sqlc
 
-docker commands
-docker images
-docker ps       - return all running containers
-docker ps -a    - return all containers
-docker logs <container_name_or_id>
-docker start <container_name_or_id>
-docker stop <container_name_or_id>
+- docker commands
+- docker images
+- docker ps       - return all running containers
+- docker ps -a    - return all containers
+- docker logs <container_name_or_id>
+- docker start <container_name_or_id>
+- docker stop <container_name_or_id>
 
 1. Create DB diagram in https://dbdiagram.io and export PostgreSQL
 ![Alt text](./docs/db_diagram.png "DB diagram")
