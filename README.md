@@ -3,6 +3,8 @@
 libraries: 
 - https://github.com/golang-migrate/migrate
 - https://github.com/kyleconroy/sqlc
+- https://github.com/lib/pq
+- https://github.com/stretchr/testify
 
 Docker commands
 - docker images
@@ -35,3 +37,7 @@ Docker commands
 - go install github.com/kyleconroy/sqlc/cmd/sqlc@latest
 13. generate code using command: 
 - docker run --rm -v ${pwd}:/src -w /src kjconroy/sqlc generate
+14. create unit tests for account, entry, transfer queries 
+15. install 
+- go get github.com/lib/pq
+16. create randomizer util/random.go
