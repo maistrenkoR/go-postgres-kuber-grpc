@@ -4,7 +4,7 @@ libraries:
 - https://github.com/golang-migrate/migrate
 - https://github.com/kyleconroy/sqlc
 
-- docker commands
+Docker commands
 - docker images
 - docker ps       - return all running containers
 - docker ps -a    - return all containers
@@ -33,4 +33,5 @@ libraries:
 - migrate -path db/migration -database "postgresql://root:secret@localhost:5432/simple_bank?sslmode=disable" -verbose up
 12. install sqlc
 - go install github.com/kyleconroy/sqlc/cmd/sqlc@latest
-13. 
+13. generate code using command: 
+- docker run --rm -v ${pwd}:/src -w /src kjconroy/sqlc generate
