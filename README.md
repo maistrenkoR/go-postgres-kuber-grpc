@@ -2,9 +2,10 @@
 
 libraries: 
 - https://github.com/golang-migrate/migrate
-- https://github.com/kyleconroy/sqlc
-- https://github.com/lib/pq
-- https://github.com/stretchr/testify
+- https://github.com/kyleconroy/sqlc            //db
+- https://github.com/lib/pq                     // db
+- https://github.com/stretchr/testify           // testing
+- https://github.com/gin-gonic/gin              // http
 
 Docker commands
 - docker images
@@ -41,3 +42,4 @@ Docker commands
 15. install 
 - go get github.com/lib/pq
 16. create randomizer util/random.go
+17. install gin library 
