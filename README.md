@@ -6,6 +6,7 @@ libraries:
 - https://github.com/lib/pq                     // db
 - https://github.com/stretchr/testify           // testing
 - https://github.com/gin-gonic/gin              // http
+- https://github.com/spf13/viper                // enc config
 
 Docker commands
 - docker images
@@ -43,3 +44,4 @@ Docker commands
 - go get github.com/lib/pq
 16. create randomizer util/random.go
 17. install gin library 
+18. install viper
