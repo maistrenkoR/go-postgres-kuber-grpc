@@ -6,7 +6,7 @@ libraries:
 - https://github.com/lib/pq                     // db
 - https://github.com/stretchr/testify           // testing
 - https://github.com/gin-gonic/gin              // http
-- https://github.com/spf13/viper                // enc config
+- https://github.com/spf13/viper                // env config
 
 Docker commands
 - docker images
